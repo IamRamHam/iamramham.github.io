@@ -1,0 +1,17 @@
+Phonetic カードの練習音声
+
+sound-*.wav は、米語の各音素を直接指定して合成したお手本です。
+word-*.wav は、対応する例語を米語で合成したお手本です。
+どちらもこのサイト用に Microsoft Zira Desktop で生成し、音量と前後の余白を調整しました。
+
+使用した音素表
+Microsoft, American English Phoneme Representation (SAPI 5.4)
+https://learn.microsoft.com/en-us/previous-versions/windows/desktop/ee431828(v=vs.85)
+
+英文の読み上げ
+
+同梱の英語音声は PicoVox 2.0.3 の米語音声モデルを使用しています。
+PicoVox © 2026 Craig A. Hobbs. MIT License.
+ライセンス全文は同じフォルダーの english-voice-LICENSE.txt にあります。
+配布元 https://www.npmjs.com/package/picovox/v/2.0.3
+ソース https://github.com/craigahobbs/picovox
